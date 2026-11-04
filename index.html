@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nox App</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0f1117;
+    color: #e6e8ee;
+  }
+  main { width: 100%; max-width: 660px; }
+  h1 { font-size: 1.9rem; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  .tag { color: #8b93a7; margin: 0 0 2rem; font-size: .95rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .6rem; color: #cfd4e2; }
+  p, li { color: #b6bdcf; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  a { color: #79b8ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: #161923;
+    border: 1px solid #242a38;
+    border-radius: 12px;
+    padding: 1.25rem 1.4rem;
+    margin: 1.5rem 0;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #242a38;
+    font-size: .875rem;
+    color: #7d8598;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nox App</h1>
+  <p class="tag">A private, single-user personal assistant integration.</p>
+
+  <div class="card">
+    <p style="margin:0">
+      <strong style="color:#e6e8ee">Nox App is personal software.</strong>
+      It is built and operated for a single individual — its own developer — to
+      automate access to that person's own email and calendar. It is not a public
+      product, it has no other users, and it is not distributed or offered for
+      sign-up.
+    </p>
+  </div>
+
+  <h2>What it does</h2>
+  <p>
+    Nox App connects to Google Workspace APIs to help its operator manage their own
+    account: reading and organizing their inbox, and reading and creating entries on
+    their calendar. All processing happens locally. No data is transmitted to any
+    third party.
+  </p>
+
+  <h2>Google user data</h2>
+  <p>
+    Nox App requests access to Google APIs strictly on behalf of the account owner.
+    Credentials and any retrieved data are stored only on the operator's own machine
+    and are never shared, sold, or used for advertising, profiling, or training
+    machine learning models.
+  </p>
+  <p>Full details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    <p style="margin:0 0 .4rem">
+      <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="https://github.com/tigger814/nox-app">Source repository</a>
+    </p>
+    <p style="margin:0">Last updated: November 2026</p>
+  </footer>
+</main>
+</body>
+</html>
